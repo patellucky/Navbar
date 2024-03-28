@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <img src="asset/img/logo3-removebg-preview.png" alt="" class="logo">
+            <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#nav-btn" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-btn">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#click">product</a>
+                        <ul class="dropdown-menu" id="click">
+                            <li><a href="" class="dropdown-item" data-bs-toggle="offcanvas" data-bs-target="#laptops">Laptops</a></li>
+                            <li><a href="" class="dropdown-item" data-bs-toggle="offcanvas" data-bs-target="#phone">Phones</a></li>
+                            <li><a href="" class="dropdown-item" data-bs-toggle="offcanvas" data-bs-target="#desk">Desktops</a></li>
+                            <li><a href="" class="dropdown-item" data-bs-toggle="offcanvas" data-bs-target="#game">Gaming Handhelds</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase">innovation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase">download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase">community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase">service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase">where to buy</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-primary text-uppercase text-white" data-bs-toggle="modal" data-bs-target="#modal">modal</button>
+        </div>
+    </nav>
+
+    <!-- laptops st -->
+    <div class="offcanvas fade offcanvas-start" id="laptops" data-bs-backdrop="static"> 
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title">laptops</h2>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex align-center flex-column">
+                
+                <img src="asset/img/1.png" alt="product" class="asus">
+                <h3 class="text-center fw-light">ROG Strix Scar 18</h3>
+                <span class="text-center text-danger">2,79,990.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+                <img src="asset/img/2.png" alt="product" class="asus">
+                <h3 class="text-center fw-light">ROG Flow Z13</h3>
+                <span class="text-center text-danger">2,09,990.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- laptops end  -->
+
+    <!-- phone st -->
+    <div class="offcanvas fade offcanvas-start" id="phone" data-bs-backdrop="static"> 
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title">Phone</h2>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class=" mobles d-flex align-center flex-column">
+                
+                <img src="asset/img/phone3.png" alt="product" class="phone_img">
+                <h3 class="text-center fw-light">ROG Phone 7</h3>
+                <span class="text-center text-danger">99,999.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+                <img src="asset/img/phone2.png" alt="product" class="phone_img">
+                <h3 class="text-center fw-light">ROG Phone 6 Pro</h3>
+                <span class="text-center text-danger">89.999.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- phone end  -->
+
+    <!-- desktops st -->
+    <div class="offcanvas fade offcanvas-start" id="desk" data-bs-backdrop="static"> 
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title">Desktops</h2>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class=" mobles d-flex align-center flex-column">
+                
+                <img src="asset/img/desktop1.jpg" alt="product" class="phone_img">
+                <h3 class="text-center fw-light text-uppercase">Full Tower</h3>
+                <span class="text-center text-danger">1,99,990.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+                <img src="asset/img/desktop2.jpg" alt="product" class="phone_img">
+                <h3 class="text-center fw-light text-uppercase">mid Tower</h3>
+                <span class="text-center text-danger">1,39,990.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- desktops end -->
+
+    <!-- game st -->
+    <div class="offcanvas fade offcanvas-start" id="game" data-bs-backdrop="static"> 
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title">Gaming handhels</h2>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class=" mobles d-flex align-center flex-column">
+                
+                <img src="asset/img/game1.png" alt="product" class="phone_img">
+                <h3 class="text-center fw-light">RC71L-NH019W</h3>
+                <span class="text-center text-danger">49,990.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+                <img src="asset/img/game1.png" alt="product" class="phone_img">
+                <h3 class="text-center fw-light">RC71L-NH001W</h3>
+                <span class="text-center text-danger">59,990.00</span>
+                <div class="d-flex justify-content-center m-2">
+                    <button class="btn btn-danger text-uppercase">buy now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- game end -->
+
+    <!-- modal st -->
+    <div class="modal" id="modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">laptops</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-info" data-bs-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal end -->
+
+    <script src="asset/css/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
